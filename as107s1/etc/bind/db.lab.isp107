@@ -1,0 +1,46 @@
+$TTL   60000
+@               IN      SOA     ns.isp107.lab. root.isp107.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      ns.isp107.lab.
+
+ns                  IN      A       1.107.1.2
+www		            IN	    A       1.107.1.3
+dhcpd 	            IN      A       1.107.1.4
+
+r1eth0		        IN      A       1.0.0.5
+r1eth1		        IN	    A       1.107.2.1
+r1eth2		        IN      A       1.107.4.2
+r1eth3              IN      A       1.107.3.3
+r1dum               IN      A       1.107.11.1
+r2eth0		        IN	    A       2.21.0.1
+r2eth1		        IN      A       1.107.6.1
+r2eth2		        IN	    A       1.107.4.2
+r2dum               IN      A       1.107.12.1
+r3eth0		        IN      A       1.107.1.1
+r3eth1		        IN	    A       1.107.4.1
+r3eth2		        IN      A       1.107.6.2
+r3eth3              IN      A       1.107.5.3
+r3dum               IN      A       1.107.13.1
+r4eth0		        IN	    A       1.107.7.1
+r4eth1		        IN      A       1.107.3.1
+r4eth2		        IN	    A       1.107.5.2
+r4dum               IN      A       1.107.14.1
+
+client10            IN      A       1.107.7.10
+client11 		    IN		A		1.107.7.11
+client12 		    IN		A		1.107.7.12
+client13 		    IN		A		1.107.7.13
+client14 		    IN		A		1.107.7.14
+client15 		    IN		A		1.107.7.15
+client16 		    IN		A		1.107.7.16
+client17 		    IN		A		1.107.7.17
+client18 		    IN		A		1.107.7.18
+client19 		    IN		A		1.107.7.19
+client20 		    IN		A		1.107.7.20
+
+dnsroot	            IN		A		1.0.1.2
